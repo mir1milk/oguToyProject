@@ -1,6 +1,7 @@
 <template>
   <div class="OGU">
     <h1>{{ msg }}</h1>
+    <p>test중 입니다.</p>
   </div>
 </template>
 
