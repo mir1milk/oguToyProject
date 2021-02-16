@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>test중 입니다.</p>
     <p>test2중 입니다.</p>
+    <p>test3중 입니다.</p>
   </div>
 </template>
 
