@@ -4,6 +4,7 @@
     <p>test중 입니다.</p>
     <p>test2중 입니다.</p>
     <p>test3중 입니다.</p>
+    <p>test4중 입니다.</p>
   </div>
 </template>
 
