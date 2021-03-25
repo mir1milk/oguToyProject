@@ -2,7 +2,7 @@
 <div class="mainbg">
   <img src="../assets/mainvisual.png" alt="mainbg" width="100%">
   <div class="ani">
-    <img src="../assets/ogu_.png" alt="ogu_" width="80%">
+    <img class="mouse-img" src="../assets/ogu_.png" alt="ogu_" width="80%">
   </div>
   <div class="ani2">
     <img src="../assets/ogu__.png" alt="ogu__" width="30%">
@@ -36,5 +36,12 @@ ul{
 .ani {position: absolute; top: 290px; right: 200px;}
 .ani2 {position: absolute; top:20px;  left: 220px;}
 .ani3 {position: absolute; top:0px;  right: 21%;}
+
+.v-enter-active, .v-leave-active {
+  transition: opacity 1s;
+}
+.v-enter, .v-leave-to {
+  opacity: 0;
+}
 
 </style>

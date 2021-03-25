@@ -3,9 +3,9 @@
           <router-link to="/"><h1><img src="../assets/logo_white_3.png" alt="OGULOGO"></h1></router-link>
           <div class="menu">
             <ul>
-              <li><router-link to="/family">OGUFamily</router-link></li>
-              <li><router-link to="/store">OGUStore</router-link></li>
-              <li><router-link to="/story">OGUStory</router-link></li>
+              <li><router-link to="/family" onclick="cssChange()">OGUFamily</router-link></li>
+              <li><router-link to="/store" onclick="cssChange()">OGUStore</router-link></li>
+              <li><router-link to="/story" onclick="cssChange()">OGUStory</router-link></li>
             </ul>
           </div>
     </div>
@@ -17,6 +17,11 @@ export default {
   data() {
     return {
       test: 1
+    }
+  },
+  methods:{
+    added(){
+      this.clicked = true
     }
   }
 }
